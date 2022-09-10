@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "category": "caña",
+        "brand": "Loop",
+        "name": "European",
+        "price": 123456,
+        "img": "./img/cana1.jpg",
+        "description": "La introducción de nuestra nueva gama de cañas para mosca Opti K2 con una sola mano es un resultado directo del éxito de la caña dedicada a la ninfa europea K2 y la demanda de una serie de cañas livianas específicas para truchas. Durante extensas pruebas en todo el mundo, nuestro objetivo fue proporcionar una caña de mosca de acción sensible y liviana construida para esas condiciones específicas que nuestra comunidad de pescadores está buscando. Con un acabado en gris oscuro, la serie de cañas K2 está diseñada para el pescador de truchas más exigente. 3100 - La caña K2 Euro-nymphing es la caña especializada para este popular método de pesca con mosca. El refinado plano flexible del blank ofrece un control de deriva ultraconectivo. Armado con un portacarretes de bloqueo hacia abajo para un mejor equilibrio y medio pozos de perfil delgado para una mayor sensibilidad. Si los peces comienzan a alimentarse desde la superficie, también le proporcionará una acción encantadora para secar. Gran alcance y control de la línea y mucha diversión para jugar a pescar. 388 - Presentaciones delicadas, líderes delgados y buena precisión. Estas son las palabras que mejor describen esta vara. Si su objetivo es un pez espeluznante en aguas pequeñas, esta es la herramienta perfecta"
+    },
+    {
+        "id": 2,
+        "category": "caña",
+        "brand": "Loop",
+        "name": "American",
+        "price": 23456,
+        "img": "./img/cana2.jpg",
+        "description": "La introducción de nuestra nueva gama de cañas para mosca Opti K2 con una sola mano es un resultado directo del éxito de la caña dedicada a la ninfa europea K2 y la demanda de una serie de cañas livianas específicas para truchas. Durante extensas pruebas en todo el mundo, nuestro objetivo fue proporcionar una caña de mosca de acción sensible y liviana construida para esas condiciones específicas que nuestra comunidad de pescadores está buscando. Con un acabado en gris oscuro, la serie de cañas K2 está diseñada para el pescador de truchas más exigente. 3100 - La caña K2 Euro-nymphing es la caña especializada para este popular método de pesca con mosca. El refinado plano flexible del blank ofrece un control de deriva ultraconectivo. Armado con un portacarretes de bloqueo hacia abajo para un mejor equilibrio y medio pozos de perfil delgado para una mayor sensibilidad. Si los peces comienzan a alimentarse desde la superficie, también le proporcionará una acción encantadora para secar. Gran alcance y control de la línea y mucha diversión para jugar a pescar. 388 - Presentaciones delicadas, líderes delgados y buena precisión. Estas son las palabras que mejor describen esta vara. Si su objetivo es un pez espeluznante en aguas pequeñas, esta es la herramienta perfecta"
+    },
+    {
+        "id": 3,
+        "category": "caña",
+        "brand": "Sage",
+        "name": "European",
+        "price": 23456,
+        "img": "./img/cana3.jpg",
+        "description": "La introducción de nuestra nueva gama de cañas para mosca Opti K2 con una sola mano es un resultado directo del éxito de la caña dedicada a la ninfa europea K2 y la demanda de una serie de cañas livianas específicas para truchas. Durante extensas pruebas en todo el mundo, nuestro objetivo fue proporcionar una caña de mosca de acción sensible y liviana construida para esas condiciones específicas que nuestra comunidad de pescadores está buscando. Con un acabado en gris oscuro, la serie de cañas K2 está diseñada para el pescador de truchas más exigente. 3100 - La caña K2 Euro-nymphing es la caña especializada para este popular método de pesca con mosca. El refinado plano flexible del blank ofrece un control de deriva ultraconectivo. Armado con un portacarretes de bloqueo hacia abajo para un mejor equilibrio y medio pozos de perfil delgado para una mayor sensibilidad. Si los peces comienzan a alimentarse desde la superficie, también le proporcionará una acción encantadora para secar. Gran alcance y control de la línea y mucha diversión para jugar a pescar. 388 - Presentaciones delicadas, líderes delgados y buena precisión. Estas son las palabras que mejor describen esta vara. Si su objetivo es un pez espeluznante en aguas pequeñas, esta es la herramienta perfecta"
+    },
+    {
+        "id": 4,
+        "category": "caña",
+        "brand": "Sage",
+        "name": "American",
+        "price": 234456,
+        "img": "./img/cana4.png",
+        "description": "La introducción de nuestra nueva gama de cañas para mosca Opti K2 con una sola mano es un resultado directo del éxito de la caña dedicada a la ninfa europea K2 y la demanda de una serie de cañas livianas específicas para truchas. Durante extensas pruebas en todo el mundo, nuestro objetivo fue proporcionar una caña de mosca de acción sensible y liviana construida para esas condiciones específicas que nuestra comunidad de pescadores está buscando. Con un acabado en gris oscuro, la serie de cañas K2 está diseñada para el pescador de truchas más exigente. 3100 - La caña K2 Euro-nymphing es la caña especializada para este popular método de pesca con mosca. El refinado plano flexible del blank ofrece un control de deriva ultraconectivo. Armado con un portacarretes de bloqueo hacia abajo para un mejor equilibrio y medio pozos de perfil delgado para una mayor sensibilidad. Si los peces comienzan a alimentarse desde la superficie, también le proporcionará una acción encantadora para secar. Gran alcance y control de la línea y mucha diversión para jugar a pescar. 388 - Presentaciones delicadas, líderes delgados y buena precisión. Estas son las palabras que mejor describen esta vara. Si su objetivo es un pez espeluznante en aguas pequeñas, esta es la herramienta perfecta"
+    },
+    {
+        "id": 5,
+        "category": "reel",
+        "brand": "Loop",
+        "name": "Blazer",
+        "price": 23456,
+        "img": "./img/reel1.jpg",
+        "description": "Reel para pesca con mosca Orvis Clearwater Cassette Large Arbor. Quiz?s el reel de mejor relaci?n precio-calidad del mercado. De dise?o large arbor, con freno totalmente sellado para todo tipo de ambientes. Posee 3 cassetes/spools inclu?dos en el precio para poder usarlo con 3 lineas diferentes. Apto para lineas 5 a 8. Presentado en cartuchera de transporte"
+    },
+    {
+        "id": 6,
+        "category": "reel",
+        "brand": "Loop",
+        "name": "Rusty",
+        "price": 2344356,
+        "img": "./img/reel2.jpg",
+        "description": "Reel para pesca con mosca Orvis Clearwater Cassette Large Arbor. Quiz?s el reel de mejor relaci?n precio-calidad del mercado. De dise?o large arbor, con freno totalmente sellado para todo tipo de ambientes. Posee 3 cassetes/spools inclu?dos en el precio para poder usarlo con 3 lineas diferentes. Apto para lineas 5 a 8. Presentado en cartuchera de transporte"
+    },
+    {
+        "id": 7,
+        "category": "reel",
+        "brand": "Orvis",
+        "name": "Custom",
+        "price": 23432456,
+        "img": "./img/reel3.jpg",
+        "description": "Reel para pesca con mosca Orvis Clearwater Cassette Large Arbor. Quiz?s el reel de mejor relaci?n precio-calidad del mercado. De dise?o large arbor, con freno totalmente sellado para todo tipo de ambientes. Posee 3 cassetes/spools inclu?dos en el precio para poder usarlo con 3 lineas diferentes. Apto para lineas 5 a 8. Presentado en cartuchera de transporte"
+    },
+    {
+        "id": 8,
+        "category": "reel",
+        "brand": "Orvis",
+        "name": "Outfit",
+        "price": 234876,
+        "img": "./img/reel4.jpg",
+        "description": "Reel para pesca con mosca Orvis Clearwater Cassette Large Arbor. Quiz?s el reel de mejor relaci?n precio-calidad del mercado. De dise?o large arbor, con freno totalmente sellado para todo tipo de ambientes. Posee 3 cassetes/spools inclu?dos en el precio para poder usarlo con 3 lineas diferentes. Apto para lineas 5 a 8. Presentado en cartuchera de transporte"
+    },
+    {
+        "id": 9,
+        "category": "Wader",
+        "brand": "Simms",
+        "name": "G3",
+        "price": 873456,
+        "img": "./img/wader1.jpg",
+        "description": "El Orvis PRO Wader está diseñado para el pescador profesional, ya sea por oficio o simplemente por pasión, que irá al extremo necesario para encontrar peces. Construido con un ajuste atlético, el PRO Wader utiliza una cubierta de tela Cordura® patentada de 4 capas extremadamente duradera en la parte superior y una cubierta de tela Cordura de 5 capas en la parte inferior de las piernas para la mejor resistencia a la abrasión y a los pinchazos en su clase. La construcción de costuras de perfil bajo y una entrepierna reforzada mejoran el movimiento y la resistencia de la costura. Los botines de neopreno modernos y anatómicamente correctos tienen menos volumen con una verdadera sensación de calcetín y son más cómodos dentro de las botas de vadeo, mientras que el protector de grava de malla reforzada con PU aerodinámico cubre la bota herméticamente y elimina por completo el arrastre y la acumulación de agua. con cremallera YKK AquaGuard® resistente al agua para mantener los elementos esenciales secos y evitar la pérdida. Las lengüetas de goma en los tirantes y la cadena tipo margarita del bolsillo frontal para acoplar las herramientas ofrecen múltiples ubicaciones para los elementos esenciales y eliminan la posibilidad de perforar los waders o perder las herramientas. Parche de mosca en el bolsillo delantero para cambios rápidos y secado. El gran bolsillo interior de malla eléctrica elástica en cuatro direcciones se expande para adaptarse a artículos más grandes, pero se mantiene fuera del camino cuando está vacío. Bolsillos calientamanos estilo canguro con forro polar y cremalleras YKK AquaGuard resistentes al agua. Las rodilleras OrthoLite® extraíbles utilizan la misma tecnología que se encuentra en nuestra plantilla PRO Boot para una comodidad y un rebote óptimos. El bolsillo para accesorios extraíble permite un acceso rápido al equipo y ofrece las características de un paquete pequeño. Tirantes elásticos ajustables con hebillas opuestas para una conversión a la altura de la cintura. El parche interior de velcro se adapta a nuestro bolsillo impermeable Orvis (el 8G3H se vende por separado). Wader pesa aproximadamente 48 oz. en (regular medio). Carcasa 100% nailon con membrana de poliuretano. Forro de punto 100% nailon. Importado."
+    },
+    {
+        "id": 10,
+        "category": "Wader",
+        "brand": "Orvis",
+        "name": "Encounter",
+        "price": 2345786866,
+        "img": "./img/wader2.png",
+        "description": "El Orvis PRO Wader está diseñado para el pescador profesional, ya sea por oficio o simplemente por pasión, que irá al extremo necesario para encontrar peces. Construido con un ajuste atlético, el PRO Wader utiliza una cubierta de tela Cordura® patentada de 4 capas extremadamente duradera en la parte superior y una cubierta de tela Cordura de 5 capas en la parte inferior de las piernas para la mejor resistencia a la abrasión y a los pinchazos en su clase. La construcción de costuras de perfil bajo y una entrepierna reforzada mejoran el movimiento y la resistencia de la costura. Los botines de neopreno modernos y anatómicamente correctos tienen menos volumen con una verdadera sensación de calcetín y son más cómodos dentro de las botas de vadeo, mientras que el protector de grava de malla reforzada con PU aerodinámico cubre la bota herméticamente y elimina por completo el arrastre y la acumulación de agua. con cremallera YKK AquaGuard® resistente al agua para mantener los elementos esenciales secos y evitar la pérdida. Las lengüetas de goma en los tirantes y la cadena tipo margarita del bolsillo frontal para acoplar las herramientas ofrecen múltiples ubicaciones para los elementos esenciales y eliminan la posibilidad de perforar los waders o perder las herramientas. Parche de mosca en el bolsillo delantero para cambios rápidos y secado. El gran bolsillo interior de malla eléctrica elástica en cuatro direcciones se expande para adaptarse a artículos más grandes, pero se mantiene fuera del camino cuando está vacío. Bolsillos calientamanos estilo canguro con forro polar y cremalleras YKK AquaGuard resistentes al agua. Las rodilleras OrthoLite® extraíbles utilizan la misma tecnología que se encuentra en nuestra plantilla PRO Boot para una comodidad y un rebote óptimos. El bolsillo para accesorios extraíble permite un acceso rápido al equipo y ofrece las características de un paquete pequeño. Tirantes elásticos ajustables con hebillas opuestas para una conversión a la altura de la cintura. El parche interior de velcro se adapta a nuestro bolsillo impermeable Orvis (el 8G3H se vende por separado). Wader pesa aproximadamente 48 oz. en (regular medio). Carcasa 100% nailon con membrana de poliuretano. Forro de punto 100% nailon. Importado."
+    }
+]
