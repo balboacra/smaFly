@@ -1,9 +1,11 @@
 import Contador from './Contador';
 
-export const ItemDetail = ({ item }) => {
+const ItemDetail = ({ item }) => {
+
     const onAdd = (contador) => {
         console.log('Soy un onAdd y el contador es:', contador);
     }
+
     return (
         <>
             <div className="col-12 mb-2 col-md-4">
@@ -14,6 +16,7 @@ export const ItemDetail = ({ item }) => {
                         <h4 className='display-6 my-2'>{item.name}</h4>
                         <p className='my-2'>${item.price}.-</p>
                         <h5>{item.description}</h5>
+                        <h5>{item.category}</h5>
                         <div>
                             <Contador stock={5} initial={1} onAdd={onAdd} />
                         </div>
@@ -23,3 +26,5 @@ export const ItemDetail = ({ item }) => {
         </>
     )
 }
+
+export default ItemDetail;

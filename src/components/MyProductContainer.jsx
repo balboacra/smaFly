@@ -6,7 +6,7 @@ import { ProductList } from './ProductList';
 
 const MyProductContainer = () => {
     const [products, setProducts] = useState([]);
-
+    
     const getProducts = (data, time) =>
         new Promise((resolve, reject) => {
             setTimeout(() => {

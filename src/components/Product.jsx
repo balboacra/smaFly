@@ -5,7 +5,6 @@ export const Product = ({ name, price, img, brand }) => {
         console.log('Soy un onAdd y el contador es:', contador);
     }
     return (
-        <>
             <div className="col-12 mb-2 col-md-4">
                 <div id='card' className="card border border-dark shadow">
                     <img src={img} className="card-img-top img-thumbnail shadow" alt="" />
@@ -19,6 +18,5 @@ export const Product = ({ name, price, img, brand }) => {
                     </div>
                 </div>
             </div>
-        </>
     )
 }

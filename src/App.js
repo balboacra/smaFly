@@ -7,6 +7,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 
 
+
 function App() {
 
   return (
@@ -14,15 +15,10 @@ function App() {
       <NavBar/>
       <Routes>
         <Route path='/' element={<MyProductContainer/>}/>
-        <Route path='/itemDetail' element={<ItemDetailContainer/>}/>
+        <Route path='/itemDetail/:id' element={<ItemDetailContainer/>}/>
       </Routes>
     </BrowserRouter>
 
-    // <div className="container">
-    //   <NavBar />
-    //   <MyProductContainer/>
-    //   <ItemDetailContainer />
-    // </div>
   );
 }
 
