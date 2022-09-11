@@ -9,6 +9,7 @@ const ItemDetailContainer = () => {
     const {id} = useParams()
     console.log(id);
 
+
     const getItem = () => {
         return new Promise(resolve => {
             setTimeout(() => {

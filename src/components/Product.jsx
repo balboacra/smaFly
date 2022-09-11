@@ -1,11 +1,13 @@
+import { Link } from 'react-router-dom';
 import Contador from './Contador';
 
-export const Product = ({ name, price, img, brand }) => {
+export const Product = ({ name, price, img, brand, id }) => {
     const onAdd = (contador) => {
         console.log('Soy un onAdd y el contador es:', contador);
     }
     return (
-            <div className="col-12 mb-2 col-md-4">
+        <div className="col-12 mb-2 col-md-4">
+            <Link to={`/itemDetail/${id}`}>
                 <div id='card' className="card border border-dark shadow">
                     <img src={img} className="card-img-top img-thumbnail shadow" alt="" />
                     <div className="card-body text-center">
@@ -17,6 +19,7 @@ export const Product = ({ name, price, img, brand }) => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </Link>
+        </div>
     )
 }
