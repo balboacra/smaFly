@@ -1,25 +1,31 @@
 import { Link } from 'react-router-dom';
 import Contador from './Contador';
+import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/Button';
 
 export const Product = ({ name, price, img, brand, id }) => {
     const onAdd = (contador) => {
         console.log('Soy un onAdd y el contador es:', contador);
     }
     return (
-        <div className="col-12 mb-2 col-md-4">
-            <Link to={`/itemDetail/${id}`}>
-                <div id='card' className="card border border-dark shadow">
-                    <img src={img} className="card-img-top img-thumbnail shadow" alt="" />
-                    <div className="card-body text-center">
-                        <p className="text-muted display-6"><strong>{brand}</strong></p>
-                        <h4 className='display-6 my-2'>{name}</h4>
-                        <p className='my-2'>${price}.-</p>
-                        <div>
-                            <Contador stock={5} initial={1} onAdd={onAdd} />
-                        </div>
+            <Card style={{ width: '18rem' }} className='text-center m-5'>
+                <Card.Img variant="top" src={img} />
+                <Card.Body>
+                    <Card.Title>{name}</Card.Title>
+                    <Card.Text>
+                        This is a {brand} card with supporting text below as a natural lead-in
+                        to additional content. This content is a little bit longer.
+                    </Card.Text>
+                    <Link to={`/itemDetail/${id}`}>
+                        <Button variant="dark" className="rounded-0">Ver detalles</Button>
+                    </Link>
+                    <div>
+                        <Contador stock={5} initial={1} onAdd={onAdd} />
                     </div>
-                </div>
-            </Link>
-        </div>
+                </Card.Body>
+                <Card.Footer>
+                    <small className="text-muted">Precio: ${price}.-</small>
+                </Card.Footer>
+            </Card>
     )
 }

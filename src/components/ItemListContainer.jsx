@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react"
 import productJson from "../productList.json"
 import { useParams } from "react-router-dom"
-import ItemList from "./ItemList"
+import ItemDetail from "./ItemDetail"
 
 const ItemListContainer = () => {
 
@@ -14,7 +14,7 @@ const ItemListContainer = () => {
     const getItem = () => {
         return new Promise(resolve => {
             setTimeout(() => {
-                resolve(productJson.find(p => p.category == category))
+                resolve(productJson.find(p => p.category === category))
             }, 2000);
         })
     }
@@ -29,7 +29,7 @@ const ItemListContainer = () => {
 
 
     return (
-        <ItemList item={item}/>
+        <ItemDetail item={item}/>
     )
 }
 
