@@ -8,6 +8,8 @@ const ItemDetail = ({ item }) => {
         console.log('Soy un onAdd y el contador es:', contador);
     }
 
+    // const {addToCart} = useFavs()
+
     return (
         <Card className="text-center">
             <Card.Header>{item.brand}</Card.Header>

@@ -4,8 +4,6 @@ import productJson from '../productList.json';
 import { ProductList } from './ProductList';
 import Row from 'react-bootstrap/Row';
 
-
-
 const MyProductContainer = () => {
     const [products, setProducts] = useState([]);
 
@@ -30,19 +28,19 @@ const MyProductContainer = () => {
     }, [])
 
     return (
-        <div className="container d-flex justify-content-center">
-            <Row>
-                <div className="col-md-4">
-                    <ProductList products={products} />
-                </div>
-                <div className="col-md-4">
-                    <ProductList products={products} />
-                </div>
-                <div className="col-md-4">
-                    <ProductList products={products} />
-                </div>
-            </Row>
-        </div>
+            <div className="container d-flex justify-content-center">
+                <Row>
+                    <div className="col-md-4">
+                        <ProductList products={products} />
+                    </div>
+                    <div className="col-md-4">
+                        <ProductList products={products} />
+                    </div>
+                    <div className="col-md-4">
+                        <ProductList products={products} />
+                    </div>
+                </Row>
+            </div>
     )
 }
 export default MyProductContainer

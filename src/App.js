@@ -5,22 +5,21 @@ import NavBar from './components/NavBar';
 import ItemDetailContainer from './components/ItemDetailContainer';
 import ItemListContainer from './components/ItemListContainer';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-
-
-
+import { CartProvider } from './context/CartContext';
 
 function App() {
 
   return (
     <BrowserRouter>
-      <NavBar/>
+      <NavBar />
       <Routes>
-        <Route path='/' element={<MyProductContainer/>}/>
-        <Route path='/itemDetail/:id' element={<ItemDetailContainer/>}/>
-        <Route path='/category/' element={<ItemListContainer/>}/>
+        <CartProvider>
+          <Route path='/' element={<MyProductContainer />} />
+          <Route path='/itemDetail/:id' element={<ItemDetailContainer />} />
+          <Route path='/category/' element={<ItemListContainer />} />
+        </CartProvider>
       </Routes>
     </BrowserRouter>
-
   );
 }
 

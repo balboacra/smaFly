@@ -3,10 +3,11 @@ import { useEffect, useState } from "react"
 import productJson from "../productList.json"
 import { useParams } from "react-router-dom"
 
+
 const ItemDetailContainer = () => {
 
     const [item, setItem] = useState({})
-    const {id} = useParams()
+    const { id } = useParams()
     console.log(id);
 
 
@@ -17,7 +18,7 @@ const ItemDetailContainer = () => {
             }, 2000);
         })
     }
-    
+
     useEffect(() => {
         getItem().then(data => {
             console.log(data);
@@ -28,7 +29,7 @@ const ItemDetailContainer = () => {
 
 
     return (
-        <ItemDetail item={item}/>
+        <ItemDetail item={item} />
     )
 }
 

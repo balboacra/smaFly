@@ -11,6 +11,10 @@ const Contador = ({ stock, initial, onAdd }) => {
         if (contador > initial) setContador(contador - 1);
     }
 
+    // const addHandler = () => {
+    //     addToCart
+    // }
+
     return (
         <>
             <button className="btn btn-dark m-2" onClick={disminuirContador}>-</button>
