@@ -1,11 +1,11 @@
 import React from 'react';
 import { Product } from './Product'
 
-const ItemList = ({ products }) => {
+export const CategoryList = ({ products }) => {
     return (
             <div>
                 {products.length ?
-                    (products.map((product) => <Product key={product.category}{...product} />)
+                    (products.map((product) => <Product key={product.id}{...product} />)
                     ) : (
                         <div className="spinner-border text-primary" role="status">
                             <span className="visually-hidden">Loading...</span>
@@ -14,5 +14,3 @@ const ItemList = ({ products }) => {
             </div>
     );
 };
-
-export default ItemList;

@@ -3,9 +3,9 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import MyProductContainer from './components/MyProductContainer';
 import NavBar from './components/NavBar';
 import ItemDetailContainer from './components/ItemDetailContainer';
-import ItemListContainer from './components/ItemListContainer';
+import CategoryContainer from './components/CategoryContainer';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { CartProvider } from './context/CartContext';
+// import { CartProvider } from './context/CartContext';
 
 function App() {
 
@@ -13,11 +13,11 @@ function App() {
     <BrowserRouter>
       <NavBar />
       <Routes>
-        <CartProvider>
+        {/* <CartProvider> */}
           <Route path='/' element={<MyProductContainer />} />
           <Route path='/itemDetail/:id' element={<ItemDetailContainer />} />
-          <Route path='/category/' element={<ItemListContainer />} />
-        </CartProvider>
+          <Route path='/category/:category' element={<CategoryContainer/>} />
+        {/* </CartProvider> */}
       </Routes>
     </BrowserRouter>
   );
